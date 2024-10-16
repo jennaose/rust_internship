@@ -1,5 +1,5 @@
-# Creating A Simple Program Using Rust
-## A program to print hello world
+# Day 2 of the rust internship program
+## creating a simple program to print hello world
 - step 1: Open the visual studio code application 
 - step 2: Create a new file and select language to rust
 - step 3: Type the following
