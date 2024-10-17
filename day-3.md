@@ -20,4 +20,7 @@ This data type defines single data values. Rust has four primary scalar types: i
 | 128-bit   | i128    | u128     |
 
 -**Floating-point numbers:** Floating-point numbers represent real numbers that can have fractional parts (i.e., numbers with decimals). They are used when the precision of whole numbers (integers) is not sufficient, allowing you to represent values between integers as well as very large or very small numbers. Rust’s floating-point types are f32 and f64, which are 32 bits and 64 bits in size.
+
             let y: f32 = 3.0; // f32
+
+this line of code assigns `3.0` fractional number to `y` variable with data type `float` and size 32 bits 
