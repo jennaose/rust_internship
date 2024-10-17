@@ -24,3 +24,10 @@ This data type defines single data values. Rust has four primary scalar types: i
             let y: f32 = 3.0; // f32
 
 this line of code assigns `3.0` fractional number to `y` variable with data type `float` and size 32 bits 
+
+-**Boolean:** this is a data type used when a true or a false value is needed. it is defined using the `bool` keyword
+
+            let heisthere : bool= true;
+
+-**Character:** This is used when declaring alphabetic values. It can also be 
+
