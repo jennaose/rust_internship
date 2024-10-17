@@ -9,10 +9,18 @@ Hence if you want to be able to change the contents of a variable, the `mut` key
 Assume we have a line of code
 
                      let age= 10;
+
+Here `age` cannot be changed, as rust automatically sets variales to immutable 
                      
 `let` is used to declare a variable in Rust.
 
 `age` is the name of the variable.
 
 `10` is the value we stored in the variable age.
+
+Assume we have another line of code 
+
+                    let mut age= 10
+                    
+`mut` makes the variable `age` changeable such that we can define `age` again and change the value 
 
