@@ -6,20 +6,13 @@ In Rust, variables are defined using the `let` syntax and variables are immuatbl
 
 Hence if you want to be able to change the contents of a variable, the `mut` keyword is used, preffixing the `let` keyword and so an mutable variable can be defined.
 
-## Create a new cargo project
-          fn main() {
-           //immutable variables
-           let age= 10;
-           //this is automatically an immutable  variable 
-           
-          println!("age {} ", age);
-          // mutable variables
-           let mut age2= 16;
-           println!("before= {} ", age2);
-           age2= 20;
-           println!("after= {} ", age2)
-          }
+Assume we have a line of code
 
-In the first instance, **age** is an immutable variable so it cannot be changed once assigned.
+                     let age= 10;
+                     
+`let` is used to declare a variable in Rust.
 
-But in the second instance, **age2** is a muttable variable, hence it could be changed affter initial assignment.
+`age` is the name of the variable.
+
+`10` is the value we stored in the variable age.
+
