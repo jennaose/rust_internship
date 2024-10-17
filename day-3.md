@@ -70,4 +70,14 @@ Here are the common types of aggregate data types:
   
                         let mut numbers = vec![1, 2, 3];  // A vector in Rust
                         numbers.push(4);  // Add an element
-  
+
+## Accessing Array Elements
+An array is a single chunk of memory of a known, fixed size that can be allocated on the stack. You can access elements of an array using indexing, like this:
+
+                        fn main() {
+                            let a = [1, 2, 3, 4, 5];
+                        
+                            let first = a[0];
+                            let second = a[1];
+                        }
+                          
