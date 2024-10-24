@@ -61,3 +61,23 @@ A tuple in Rust is a collection of values grouped together into a single compoun
 **You access the fields by index, similar to how you access tuple elements:**
 
                 println!("Black colour values: {} {} {}", black.0, black.1, black.2);
+
+### Unit-like Struct
+A unit-like struct is a struct without any fields. You can think of it as a marker or a placeholder type.  It's used when you need to define a type with custom behavior without associating any data with it.
+
+A unit-like struct looks like this:
+
+				struct MyStruct;
+
+Notice that there are no fields or curly braces. It's an empty struct, but it still has a distinct type. This type can be used for various purposes, like implementing methods or traits, or simply as a marker.
+
+**Example**
+
+          struct Empty;
+          fn main() {
+              let e = Empty;
+              println!("Unit-like struct created!");
+          }
+
+In this case, the Empty struct does not hold any data, but you can still instantiate it and use it as a type.
+
