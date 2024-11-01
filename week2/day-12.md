@@ -21,7 +21,7 @@ Suppose we want to open a file. This action could fail if the file doesn't exist
               File::open("file.txt")
           }
           
-Here, open_file returns a Result<File, std::io::Error>. We can then use match to handle both cases:
+Here, `open_file` returns a `Result<File, std::io::Error>`. We can then use match to handle both cases:
 
           match open_file() {
               Ok(file) => println!("File opened successfully!"),
@@ -50,7 +50,7 @@ The Option type is for scenarios where a value might or might not be present, wi
 2. None represents the absence of a value.
 
 #### Example
-Let’s say we want to retrieve a value from a HashMap. The value may or may not exist, so we use Option:
+Let’s say we want to retrieve a value from a `HashMap`. The value may or may not exist, so we use Option:
           
           use std::collections::HashMap;
           
@@ -68,7 +68,7 @@ We can handle the Option result with match:
               None => println!("Key not found"),
           }
           
-Or, use unwrap_or for a default value if None is encountered:
+Or, use `unwrap_or` for a default value if None is encountered:
 
           let result = find_in_map(&my_map, "key2").unwrap_or(&"default".to_string());
           println!("Result: {}", result);
