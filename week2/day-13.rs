@@ -124,3 +124,28 @@ fn main() {
         item.categorize();
     }
 }
+/* this will be the result on the console.
+Before update:
+Item { name: "Phone", category: Electronics, quantity: 15 }
+Item { name: "Television", category: Electronics, quantity: 20 }
+Item { name: "Skirt", category: Clothing, quantity: 7 }
+Item { name: "Bread", category: Food, quantity: 10 }
+
+Updating quantities:
+Successfully updated Phone quantity.
+Successfully updated Television quantity.
+Successfully updated Skirt quantity.
+Error: Cannot decrease Bread by 12. Not enough in stock!
+Error: Item 'Nonexistent' not found in inventory.
+
+After update:
+Item { name: "Phone", category: Electronics, quantity: 20 }
+Item { name: "Television", category: Electronics, quantity: 15 }
+Item { name: "Skirt", category: Clothing, quantity: 10 }
+Item { name: "Bread", category: Food, quantity: 10 }
+
+Categorizing items:
+Item { name: "Phone", category: Electronics, quantity: 20 } is an electronic item.
+Item { name: "Television", category: Electronics, quantity: 15 } is an electronic item.
+Item { name: "Skirt", category: Clothing, quantity: 10 } is a clothing item.
+Item { name: "Bread", category: Food, quantity: 10 } is a food item.*/
