@@ -107,8 +107,8 @@ fn main() {
         Ok(_) => println!("Successfully updated Bread quantity."),
         Err(e) => println!("Error: {}", e),
     }
-    match inventory.update_item_quantity("Nonexistent", 10) {
-        Ok(_) => println!("Successfully updated Nonexistent item quantity."),
+    match inventory.update_item_quantity("Pear", 10) {
+        Ok(_) => println!("Successfully updated Pear item quantity."),
         Err(e) => println!("Error: {}", e),
     }
 
@@ -136,7 +136,7 @@ Successfully updated Phone quantity.
 Successfully updated Television quantity.
 Successfully updated Skirt quantity.
 Error: Cannot decrease Bread by 12. Not enough in stock!
-Error: Item 'Nonexistent' not found in inventory.
+Error: Item 'Pear' not found in inventory.
 
 After update:
 Item { name: "Phone", category: Electronics, quantity: 20 }
