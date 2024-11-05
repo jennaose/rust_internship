@@ -1,3 +1,5 @@
+//using hashmaps and strings to create a simple phone book 
+
 #[derive(Debug)] 
 struct Contact {
      name: String,
