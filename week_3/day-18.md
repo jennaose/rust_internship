@@ -1,6 +1,6 @@
 ### 1. **Iterators**
 
-An **iterator** is any object in Rust that allows you to traverse (or "iterate" over) a sequence of items, one by one. Rust’s iterators are **lazy** by default, meaning they don’t do any work until they’re consumed (for example, by a loop or a collecting function like `.collect()`).
+An **iterator** is any object in Rust that allows you to process over (or "iterate" over) a sequence of items, one by one. Rust’s iterators are **lazy** by default, meaning they don’t do any work until they’re consumed (for example, by a loop or a collecting function like `.collect()`).
 
 - **Creating an Iterator**:
   - You can create an iterator from collections like vectors or hash maps with methods like `.iter()` or `.into_iter()`.
