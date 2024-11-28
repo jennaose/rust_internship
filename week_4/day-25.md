@@ -1,9 +1,9 @@
 # Task
 Build an asynchronous web scraper that fetches and processes data from multiple websites concurrently using Rust and Tokio
 
-Prerequisites
+## Prerequisites
 - Setup
-Add the following dependencies to your Cargo.toml file:
+   - Add the following dependencies to your Cargo.toml file:
 
 ```rust
 [dependencies]
