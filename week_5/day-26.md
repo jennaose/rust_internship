@@ -1,5 +1,7 @@
 ### FILE I/O
 
+---
+
 This is reading or writing data to files stored in the computer. 
 it involves the opening, reading, writing its contents and managing errors safely. 
 it uses the `use std::fs` library format to initialise file operations for handling files.
@@ -39,10 +41,11 @@ use std::io::Write;
 ```
 
 ### CRATES
+---
 Crates are external libraries or packages that provide reusable code enabling developers to extend the language's functionality. Crates are hosted on the `crates.io` website 
 #### Examples include
-- chrono to handle date and time
-- serde_json to handle JSON
+- `chrono` to handle date and time
+- `serde_json` to handle JSON
 
 ### Summary
 Crates and File I/O can be combined to improve functionality of the code, for improves error handling and many more 
