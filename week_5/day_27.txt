@@ -1,0 +1,5 @@
+2024-12-02 10:00:00 INFO User logged in
+2024-12-02 10:05:23 WARN Disk space low
+2024-12-02 10:10:45 ERROR Unable to save file
+2024-12-02 10:15:00 INFO File uploaded successfully
+2024-12-02 10:20:30 INFO User logged out
