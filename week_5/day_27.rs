@@ -56,3 +56,20 @@ fn main() {
         
     }
 }
+/* This will be the result in the output terminal
+Logs:
+2024-12-02 10:00:00 INFO User logged in
+2024-12-02 10:05:23 WARN Disk space low
+2024-12-02 10:10:45 ERROR Unable to save file
+2024-12-02 10:15:00 INFO File uploaded successfully
+2024-12-02 10:20:30 INFO User logged out
+
+Report generated: report.txt
+
+Contents of report:
+Log Report:
+The count of each severity is:
+INFO: 3
+WARN: 1
+ERROR: 1 */
+
