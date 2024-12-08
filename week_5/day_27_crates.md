@@ -15,23 +15,6 @@ Crates are external libraries or packages that provide reusable code enabling de
 - Add the crate to dependency in your `Cargo.toml` file.
 - Save the file and run it using `cargo build` to download the crate and its dependencies
 - Use the crate in your code
+
   
-```rust
-use serde_json::Value;
-fn main((){
-let json_data =r#"{
-"name":"Rust",
-"type"::"Programming Language"}"#
-
-let parsed : Value = serde_json::from_str(json_data).expect("Failed to parse json");
-println!("Name:{}", parsed ["name"]);
-println!("Type:{}", parsed ["type"]};
-}
-```
-The output will be
-```
-Name:Rust
-Type: Programming Language
-```
-
 Crates and File I/O can be combined to improve functionality of the code, for improves error handling and many more
