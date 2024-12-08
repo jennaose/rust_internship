@@ -7,6 +7,7 @@ it involves the opening, reading, writing its contents and managing errors safel
 it uses the `use std::fs` library format to initialise file operations for handling files.
 
 #### Reading files
+Rust provides the File type from std::fs to open and manipulate files.
 ```rust
 use std::fs
   fn main(){
@@ -18,6 +19,7 @@ use std::fs
 }
 ```
 #### Writing to file
+To write to a file, use File::create (to create or truncate a file).
 ```rust
 use std::fs::File;
 use std::io::Write;
@@ -28,7 +30,9 @@ use std::io::Write;
     println!("File written successfully");
 }
 ```
-#### Appending to a file 
+
+#### Appending to a file
+To append to a filr, use OpenOptions (to append or write conditionally).
 ```rust
 use std::fs::OpenOptions;
 use std::io::Write;
@@ -39,16 +43,15 @@ use std::io::Write;
     println!("Content appended successfully");
 }
 ```
+#### Handling Errors
+File I/O operations can fail (e.g., file not found, permission denied), so we can use `Result` to handle errors
 
+use std::fs::File;
 
-### CRATES
----
-Crates are external libraries or packages that provide reusable code enabling developers to extend the language's functionality. Crates are hosted on the `crates.io` website 
-#### Examples include
-- `chrono` to handle date and time
-- `serde_json` to handle JSON
-
-### Summary
-Crates and File I/O can be combined to improve functionality of the code, for improves error handling and many more 
-
+fn main() {
+    match File::open("nonexistent.txt") {
+        Ok(_) => println!("File opened successfully."),
+        Err(e) => eprintln!("Error opening file: {}", e),
+    }
+}
 
