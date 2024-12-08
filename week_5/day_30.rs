@@ -4,7 +4,7 @@ use std::path::Path;
 
 fn main() {
     // Specify the log file path
-    let log_file_path = "errors.log";
+    let log_file_path = "log.txt";
 
     // Call the log parser function
     if let Err(e) = parse_logs(log_file_path) {
