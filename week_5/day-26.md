@@ -40,6 +40,7 @@ use std::io::Write;
 }
 ```
 
+
 ### CRATES
 ---
 Crates are external libraries or packages that provide reusable code enabling developers to extend the language's functionality. Crates are hosted on the `crates.io` website 
