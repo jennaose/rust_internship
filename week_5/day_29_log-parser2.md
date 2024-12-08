@@ -161,7 +161,3 @@ fn display_report(file_path: &str) -> io::Result<()> {
 
 3. **Error Safety**:
    - Errors are handled gracefully and logged to the console with informative messages.
-
----
-
-Would you like to extend this further with additional features, such as filtering logs by severity or adding unit tests?
