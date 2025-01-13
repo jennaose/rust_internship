@@ -1,1 +1,2 @@
-the log.txt file can be used for the two log parsers
+the log.txt file can be used for the two log parsers in the file
+
