@@ -1,2 +1,8 @@
-the log.txt file can be used for the two log parsers in the file
+To build a log parser that reads logs from a file and generates a report.
+
+The log parser will read logs from a file and generate report of the parser file 
+
+the refarctored parser is supposed to be modular and scalable
+
+the log.txt file can be used for the two log parsers inside the paser file
 
